@@ -6,10 +6,7 @@ Streamlit と OpenAI API を使用して構築されています。
 ---
 
 ## 🚀 デモ（Streamlit Cloud）
-※ デプロイ後にここに URL を貼ってください  
-例：  
-https://your-app-name.streamlit.app/
-
+https://discusschat-fsqovnpufps3zkycafkyxg.streamlit.app/
 ---
 
 ## 📦 機能概要
