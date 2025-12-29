@@ -91,6 +91,8 @@ if user_input and not st.session_state.finished:
 
         eval_prompt = """
 あなたは魔王として、志願者の回答を100点満点で評価する。
+平均で60点になるように厳しめに評価すること。
+75点以上で合格とする。
 
 評価基準（各25点満点）：
 1. 魔王軍にふさわしい野心（0〜25）
@@ -134,6 +136,7 @@ if user_input and not st.session_state.finished:
         elif st.session_state.turn >= 10:
             final_eval_prompt = """
 あなたは魔王として、志願者の回答を100点満点で評価する。
+75点以上で合格とする。
 
 評価基準（各25点満点）：
 1. 魔王軍にふさわしい野心（0〜25）
